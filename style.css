@@ -1,0 +1,117 @@
+body{
+    margin: 0 30%;
+    font-family: 'Ubuntu', sans-serif;
+    background: rgb(21,21,94);
+    background: linear-gradient(90deg, rgba(21,21,94,1) 0%, rgba(9,121,112,1) 48%, rgba(0,212,255,1) 100%);
+}
+.container{
+    opacity: 0;
+}
+h1{
+    color:#fff;
+    opacity: 0.8;
+}
+form label{
+    color:#fff;
+    opacity: 0.8;
+}
+form div{
+    display: flex;
+}
+form div input[type=text]{
+    background-color: rgba(255, 255, 255,0.8);
+    font-weight: 100;
+    color: rgba(0, 0, 0,0.7);
+}
+form div input[type=text]::placeholder{
+    font-weight: 100;
+    color: rgba(0, 0, 0,0.3);
+
+}
+form div input[type=submit]{
+    position: relative;
+    width: 20%;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 5px;
+    background-color: rgb(9,121,112) ;
+    border-color: rgb(9,121,112);
+    transition: 0.5s;
+    color: #fff;
+}
+form div input[type=submit]:hover{
+    background-color:rgb(105, 202, 221);
+    border-color: rgb(105, 202, 221);
+    color: rgb(9,121,112);
+
+}
+form div input[type=submit]:focus{
+    box-shadow: #fff;
+}
+.icon{
+    background-color: rgba(9,121,112,0.8);
+    border-radius: 50%;
+    margin-top: -200px;
+}
+.card{
+    background-color: rgba(255, 255, 255,0.8);
+}
+.card-img-top{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.day-forecast{
+    background-color: rgba(9,121,112,0.3);
+    padding: 30px 0;
+    margin: 10px;
+    border-radius: .25rem;
+}
+h3{
+    color: rgba(0, 0, 0,0.7);  
+}
+.day-forecast h4{
+    margin: 0 0 15px;
+    color: rgba(0, 0, 0,0.6);
+    font-size: 1.3rem;
+} 
+.day-back{
+    background-color: rgba(9,121,112,0.3);
+    margin: 5%;
+    padding: 20px 0 0;
+    border-radius: .25rem;
+}
+.layout-day-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(255, 255, 255,0.5);  
+    border-radius: .25rem;
+    padding: 5%;
+    color: rgba(255, 255, 255,0.8);   
+}
+.layout-day-div p{
+    margin:0
+}
+.layout-day-div img{
+    background-color: rgba(255, 255, 255,0.5);
+    border-radius: 50%;
+    width: 15%;
+}
+@media only screen and (max-width: 800px) {
+    body {
+        margin: 0 20%;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0 10%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    body {
+        margin: 0 5%;
+    }
+  }
